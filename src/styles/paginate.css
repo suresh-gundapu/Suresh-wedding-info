@@ -1,0 +1,27 @@
+/* pagination.css */
+
+.pagination {
+  margin-top: 20px; /* Add spacing above the pagination */
+}
+
+.pagination .page-item {
+  margin: 0 5px; /* Space between pagination items */
+}
+
+.pagination .page-link {
+  background-color: #2c3e50; /* Dark blue background matching the navbar/footer */
+  color: #ecf0f1; /* Light grey text color */
+  border: 1px solid #2c3e50; /* Match border with background */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.pagination .page-link:hover {
+  background-color: #3498db; /* Bright blue on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #3498db; /* Active page background */
+  color: #ffffff; /* Active page text color */
+  border: 1px solid #3498db; /* Match border with active background */
+}

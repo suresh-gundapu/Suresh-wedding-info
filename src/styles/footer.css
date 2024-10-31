@@ -1,0 +1,30 @@
+/* footer.css */
+
+footer {
+  background-color: #2c3e50; /* Dark blue background */
+  color: #ecf0f1; /* Light grey text color */
+  padding: 20px; /* Padding around the footer */
+  text-align: center; /* Center-align the text */
+  position: relative; /* Positioning context for any absolute elements */
+  bottom: 0; /* Stick to the bottom of the page */
+  width: 100%; /* Full width */
+  font-family: 'Arial', sans-serif; /* Font style */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100px; /* Set a fixed height for vertical centering */
+}
+
+.copyright {
+  margin: 0; /* Remove default margin */
+}
+
+.link {
+  color: #3498db; /* Bright blue color for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.link:hover {
+  color: #1abc9c; /* Change link color on hover */
+}
